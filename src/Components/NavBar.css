@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navIcon{
+    width: 30%;
+    float: left;
+}
+.navIcon2{
+    width: 25%;
+    float: left;
+}
+.navBar{
+    background-color: #222831;
+}
+.logoContainer{
+    width: 50vw;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+}
+.toggleButton{
+    border-color: transparent;
+    color: transparent;
+}
+.offcanavaContainer{
+    background-color: #222831;
+    color: #EEEEEE;
+    text-align: right;
+    font-size: larger;
+}
+.OffcanvasLogo{
+    width: 70vw;
+    height: 20vw;
+    display: flex;
+    align-items: end;
+    column-gap: 6%;
+}
+.fbIcon{
+    height: 11vw;
+}
+.bg-body-tertiary{
+    padding: 0%;
+}
+.nav-link:hover {
+    color: #00ADB5; 
+  }
