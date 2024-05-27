@@ -1,0 +1,11 @@
+.footer{
+    background-color: #393E46;
+    margin-bottom: 0%;
+}
+.footerText{
+    font-size: xx-small;
+    color: #ffffff;
+}
+.footerText:hover {
+    color: #ffffff;   
+}
