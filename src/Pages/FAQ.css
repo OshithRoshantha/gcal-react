@@ -1,10 +1,12 @@
 .div1{
-    background-color: #393E46;
+    background: linear-gradient(175deg, #EEEEEE 85%, #393E46 16%);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    padding-left: 5%;
     flex-direction: column;
     padding-top: 6%;
+    padding-bottom: 0%;
 }
 .div2{
     background-color: #393E46;
@@ -24,18 +26,32 @@
     padding-bottom: 20%;
 }
 .div2Header,.div3Header{
-    color: #00ADB5;
+    color: #EEEEEE;
+    text-align: center;
+    animation: colorChange 5s infinite alternate;
     
 }
 .faqHeader{
-    color: #EEEEEE;
+    color: #393E46;
+    font-weight: bolder;
+    font-size: 250%;
+}
+.contactHeader{
+    color: #00ADB5;
     font-weight: bolder;
     font-size: 250%;
 }
 .faqHeadertag{
     color: #00ADB5;
     font-size: small;
+    font-weight: 600;
+    z-index: 99;
 }
 .faqContainer{
     margin-top: -6%;
+}
+.faqIcon{
+    width: 75%;
+    margin-top: -22%;
+    margin-left: 25%;
 }

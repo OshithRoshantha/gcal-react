@@ -29,6 +29,7 @@ export default function NavBar() {
             <Offcanvas.Body>
               <Nav className="justify-content-end flex-grow-1 pe-3 ">
                 <br/>
+                <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="#action2">Calculate GPA</Nav.Link>
                 <NavDropdown
                   title="Guides"
@@ -40,7 +41,7 @@ export default function NavBar() {
                     How to Calculate GPA
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href="#action3">FAQ</Nav.Link>
+                <Nav.Link href="FAQ">FAQ</Nav.Link>
                 <br/>
                 <Nav.Link href="https://www.facebook.com/share.php?u=gcalore.netlify.app/" target='_blank'><img className='fbIcon' src='/fbIcon.png'/></Nav.Link>
               </Nav>
