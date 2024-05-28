@@ -5,7 +5,6 @@ import Inputs from '../Components/Inputs'
 export default function Calculator() {
   return (
     <div>
-       Cal
        <Inputs/> 
     </div>
   )

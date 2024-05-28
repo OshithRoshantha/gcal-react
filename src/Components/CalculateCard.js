@@ -13,7 +13,7 @@ export default function CalculateCard() {
         <Card.Text className='cardText'>
           Figure out your overall GPA, and how you stack up against the national average.
         </Card.Text>
-        <Button className='goBtn'><img src='./go.png' className='goImg'/></Button>
+        <Button href="Calculator" className='goBtn'><img src='./go.png' className='goImg'/></Button>
       </Card.Body>
     </Card>
     </div>
