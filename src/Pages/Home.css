@@ -1,0 +1,46 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/bgImg.png');
+    background-position: right;
+    background-size: cover;
+    margin-top: -6%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.homeHeading{ 
+    background-color: #222831; 
+    border-radius: 50%;
+    height: 45vw;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeHeading2{  
+    font-weight: 500;
+    text-align: center;
+}
+.homeIcon{
+    height: 80%;
+    animation: rotateOscillation 2s infinite;
+}
+@keyframes rotateOscillation {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(15deg); 
+    }
+    50% {
+      transform: rotate(0deg); 
+    }
+    75% {
+      transform: rotate(-15deg); 
+    }
+    100% {
+      transform: rotate(0deg); 
+    }
+  }
