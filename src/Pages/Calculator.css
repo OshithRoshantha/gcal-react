@@ -1,0 +1,26 @@
+.calculatorHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    
+}
+.description{
+    text-align: center;
+    font-size: 80%;
+    color: #EEEEEE;
+    font-weight: 600;
+}
+.heading{
+    text-align: center;
+    color: #EEEEEE;
+}
+.calculatorContainer{
+    margin-top: -6%;
+    margin-bottom: 20%;
+    background-image: url('/public/bgImg.png');
+    background-position: left;
+    background-size: cover;
+}

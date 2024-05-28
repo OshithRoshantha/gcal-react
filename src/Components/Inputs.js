@@ -18,7 +18,7 @@ export default function Inputs() {
     if(courses>1)
       setCourses(courses-1);
   }
-  const gpaValue = 3; //gpa here
+  const gpaValue = 0; //gpa here
 
   const determineColor=()=> {
     if (gpaValue>=3.6) {
@@ -35,9 +35,9 @@ export default function Inputs() {
     <div className='inputContainer'>
     {[...Array(courses)].map((_, index) => (
     <InputGroup className="mb-3 inputRow">    
-        <Form.Control aria-label="Text input with dropdown button" placeholder='Course Credits' />
+        <Form.Control className='inputBox' aria-label="Text input with dropdown button" placeholder='Course Credits' />
         <DropdownButton className='value' 
-          variant="outline-secondary"
+          variant="outline-dark"
           title="Grade"
           id="input-group-dropdown-1"
         >
@@ -66,7 +66,7 @@ export default function Inputs() {
     </div> 
     <div className='displayGPAContainer'>
       <CircularProgressbarWithChildren value={gpaValue} maxValue={4.0}
-      styles={{path: {stroke: determineColor()}}}
+      styles={{path: {stroke: determineColor()}},{trail: {stroke: '#EEEEEE'}}}
       >
     <div className='gpaText'>
       <div className='gpaDecimal'>{gpaValue}</div>
