@@ -1,0 +1,41 @@
+.div1{
+    background-color: #393E46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6%;
+}
+.div2{
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+}
+.div3{
+    background-color: #393E46;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+.div2Header,.div3Header{
+    color: #00ADB5;
+    
+}
+.faqHeader{
+    color: #EEEEEE;
+    font-weight: bolder;
+    font-size: 250%;
+}
+.faqHeadertag{
+    color: #00ADB5;
+    font-size: small;
+}
+.faqContainer{
+    margin-top: -6%;
+}

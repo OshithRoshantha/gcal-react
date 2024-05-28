@@ -1,0 +1,23 @@
+.contactContainer{
+    width: 85vw;
+}
+.messageLbl{
+    height: 20vh;
+    padding-bottom: 35%;
+}
+.messageLbl::placeholder{
+    position: absolute;
+    top: 8%;    
+}
+.lblHead{
+    color: #00ADB5;
+    font-size: small;
+}
+.button{
+    background-color: #00ADB5;
+    border-color: transparent;
+}
+.button:hover{
+    background-color: #222831;
+    border-color: transparent;
+}
