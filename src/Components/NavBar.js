@@ -30,7 +30,7 @@ export default function NavBar() {
               <Nav className="justify-content-end flex-grow-1 pe-3 ">
                 <br/>
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="#action2">Calculate GPA</Nav.Link>
+                <Nav.Link href="Calculator">Calculate GPA</Nav.Link>
                 <NavDropdown
                   title="Guides"
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
