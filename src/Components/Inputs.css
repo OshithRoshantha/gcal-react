@@ -44,3 +44,6 @@
 .inputBox{
     border-color: transparent;
 }
+.close:focus {
+    box-shadow:none;
+}
