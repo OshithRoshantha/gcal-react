@@ -23,18 +23,18 @@
 }
 .displayGPAContainer{
     margin-left: 6%;
-    width: 40vw;
-    height: 40vw;
+    width: 45vw;
+    height: 45vw;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .gpaText{
     text-align: center;
-    font-size: 68%;
+    font-size: 70%;
 }
 .gpaDecimal{
-    font-size: 280%;
+    font-size: 320%;
     font-weight: bolder;
     margin-top: -10%;
 }
