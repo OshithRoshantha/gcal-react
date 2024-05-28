@@ -18,7 +18,7 @@ export default function Inputs() {
     if(courses>1)
       setCourses(courses-1);
   }
-  const gpaValue = 0; //gpa here
+  const gpaValue = 0.001; //gpa here
 
   const determineColor=()=> {
     if (gpaValue>=3.6) {
@@ -65,14 +65,24 @@ export default function Inputs() {
         <Button variant="dark">Calculate</Button>
     </div> 
     <div className='displayGPAContainer'>
-      <CircularProgressbarWithChildren value={gpaValue} maxValue={4.0}
-      styles={{path: {stroke: determineColor()}},{trail: {stroke: '#EEEEEE'}}}
-      >
-    <div className='gpaText'>
-      <div className='gpaDecimal'>{gpaValue}</div>
-      <div className='gpaDesc'>Cumulative GPA</div>
-    </div>
-      </CircularProgressbarWithChildren>    
+    <CircularProgressbarWithChildren
+        value={gpaValue}
+        maxValue={4.0}
+        styles={{
+            path: {
+              stroke: determineColor()
+        },
+            trail: {
+              stroke: '#EEEEEE'
+        }
+    }}
+>
+  <div className='gpaText'>
+    <div className='gpaDecimal'>{gpaValue}</div>
+    <div className='gpaDesc'>Cumulative GPA</div>
+  </div>
+</CircularProgressbarWithChildren>
+    
     </div>
 
   </div>
