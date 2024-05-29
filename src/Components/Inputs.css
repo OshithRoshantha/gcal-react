@@ -13,7 +13,7 @@
     justify-content: center;
 }
 .dropdown-menu{
-    height: 30vh;
+    height: 13vh;
     overflow-y: auto;
 }
 .endBar{
@@ -22,7 +22,7 @@
     margin-top: 9%;
 }
 .displayGPAContainer{
-    margin-left: 45%;
+    margin-left: 40%;
     width: 45vw;
     height: 45vw;
     display: flex;

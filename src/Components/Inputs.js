@@ -75,7 +75,7 @@ export default function Inputs() {
     const gpaValue = calculateGPA();
     if (gpaValue >= 3.6) {
       return 'green';
-    } else if (gpaValue >= 3) {
+    } else if (gpaValue >= 2.7) {
       return 'gold';
     } else {
       return 'red';
@@ -99,6 +99,7 @@ export default function Inputs() {
               }}
             />
             <DropdownButton
+            
               className='value'
               variant='outline-dark'
               title={course.grade ? course.grade : 'Grade'}
@@ -108,6 +109,7 @@ export default function Inputs() {
                 updatedCourses[index].grade = value;
                 setCourses(updatedCourses);
               }}
+              menuVariant="custom"
             >
               <Dropdown.Item eventKey='A+'>A+</Dropdown.Item>
               <Dropdown.Item eventKey='A'>A</Dropdown.Item>

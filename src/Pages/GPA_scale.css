@@ -1,0 +1,33 @@
+.gpaContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    background-image: url('/public/homeCover3.png');
+    background-position: left;
+    background-size: cover;
+}
+.lowerGC{
+    padding-bottom: 12%;
+}
+.description2{
+    color: #393E46;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+}
+.header2{
+    text-align: center;
+    color: #222831;
+    font-weight: bolder;
+    font-size: 250%;
+}
+.upperGC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}

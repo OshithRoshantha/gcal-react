@@ -36,8 +36,8 @@ export default function NavBar() {
                   id={`offcanvasNavbarDropdown-expand-${expand}`}
                   data-bs-theme="dark"
                 >
-                  <NavDropdown.Item href="#action3">GPA Scale</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">
+                  <NavDropdown.Item href="GPA_scale">GPA Scale</NavDropdown.Item>
+                  <NavDropdown.Item href="How_to_calculate_gpa">
                     How to Calculate GPA
                   </NavDropdown.Item>
                 </NavDropdown>
