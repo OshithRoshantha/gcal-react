@@ -21,3 +21,10 @@
     background-color: #222831;
     border-color: transparent;
 }
+
+@media (min-width: 768px){
+    .contactContainer{
+        width: 75%;
+
+    }
+}

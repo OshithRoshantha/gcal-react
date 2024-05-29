@@ -6,6 +6,11 @@
     width: 30%;
     float: left;
 }
+.navDesktopIcon{
+    width: 5%;
+    float: left;
+    background-color: red;
+}
 .navIcon2{
     width: 25%;
     float: left;

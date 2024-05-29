@@ -55,3 +55,56 @@
     margin-top: -22%;
     margin-left: 25%;
 }
+
+@media (min-width: 768px){
+    .faqContainer{
+        display: flex;
+        height: 98vh;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15%;
+        background: linear-gradient(175deg, #EEEEEE 50%, #393E46 50%);
+    } 
+    .div2,.div3{
+        background-color: transparent;
+        padding-top: 0%;
+    }
+    .div1{
+        background: none;
+        width: 40vw;
+        margin-top: -30%;
+    }
+    .faqIcon{
+        width: 28%;
+        margin-top: 30%;
+        margin-left: 28%;
+        position: absolute;
+    }
+    .div2{
+        position: absolute;
+        width: 30vw;
+        margin-left: -58%;
+        margin-top: 15%;
+    }
+    .div3{
+        width: 40vw;
+        height: 50vh;
+        margin-top: 24%;
+    }
+    .faqHeader{
+        color: #393E46;
+        font-weight: bolder;
+        font-size: 13vh;
+    }
+    .faqHeadertag{
+        color: #00ADB5;
+        font-size: 4vh;
+        font-weight: 100;
+    }
+    .div2Header{
+        color: transparent;
+    }
+    .div3Header{
+        color: #393E46;
+    }
+}

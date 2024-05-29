@@ -9,3 +9,15 @@
 .footerText:hover {
     color: #ffffff;   
 }
+@media (min-width: 768px){
+    .footerText{
+        font-size: small;
+        color: #ffffff;
+        text-align: center;
+        width: 100vw;
+    }
+    .footer{
+        background-color: #222831;
+        width: 100vw;
+    }
+}

@@ -10,3 +10,9 @@
 .accordH2{
     color: #EEEEEE;
 }
+
+@media (min-width: 768px){
+    .accordContainer{
+        width:30vw;
+    }
+}

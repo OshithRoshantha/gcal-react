@@ -32,3 +32,45 @@
     padding-top: 6%;
     padding-bottom: 6%;
 }
+@media (min-width: 768px){
+    .gpaContainer{
+        flex-direction: row;
+        margin-top: -1%;
+        background-size: cover;
+        align-items: start;
+        background-image: url('/public/homeCover4.png');
+        height: 90vh;
+    }
+    .lowerGC{
+        padding-bottom: 0%;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+    .upperGC{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        width: 45vw;
+
+    }
+    .description2{
+        color: #393E46;
+        font-size: medium;
+        text-align: justify;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .header2{
+        text-align: center;
+        color: #222831;
+        font-weight: bolder;
+        font-size: 400%;
+        padding-top: 3%;
+    }
+}
