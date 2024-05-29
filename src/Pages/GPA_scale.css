@@ -14,8 +14,9 @@
 .description2{
     color: #393E46;
     font-size: small;
-    font-weight: 600;
-    text-align: center;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .header2{
     text-align: center;

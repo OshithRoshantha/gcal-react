@@ -1,0 +1,33 @@
+.howToContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -6%;
+    padding-top: 8%;
+    background-image: url('/public/homeCover3.png');
+    background-position: right;
+    background-size: cover;
+}
+.howText{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: small;
+}
+.howToDiv2{
+    margin-top: 5%;
+
+}
+.tableC{
+    width: 85vw;
+    display: flex;
+    margin-bottom: 20%;
+    flex-direction: column;
+}
+.howtoHeader{
+    color: #393E46;
+    font-weight: bolder;
+    font-size: 250%;
+    text-align: center;
+}
