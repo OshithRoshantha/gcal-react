@@ -10,6 +10,7 @@ import How_to_calculate_gpa from './Pages/How_to_calculate_gpa';
 import DesktopNavBar from './Components/DesktopNavBar';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import DesktopFooter from './Components/DesktopFooter';
 
 function App() {
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
@@ -34,7 +35,7 @@ function App() {
           <Route path='/How_to_calculate_gpa' element={<How_to_calculate_gpa/>}></Route>
         </Routes>
       </BrowserRouter>
-      <Footer/>
+      {isSmallScreen ? <Footer/> : <DesktopFooter/>}   
     </div>
   );
 }

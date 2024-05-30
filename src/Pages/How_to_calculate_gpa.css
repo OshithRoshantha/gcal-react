@@ -31,3 +31,53 @@
     font-size: 250%;
     text-align: center;
 }
+.rightDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 768px){
+    .howToContainer{
+        flex-direction: row;
+        margin-top: -6%;
+        height: 97.9vh;
+        column-gap: 4%;
+        background-image: none;
+        background-color: white;
+    }
+    .tableC{
+        width: 25vw;
+        display: flex;
+        margin-bottom: 0%;
+        flex-direction: column;
+    }
+    .howtoHeader{
+        color: #393E46;
+        font-weight: bolder;
+        font-size: 250%;
+        text-align: center;
+    }
+    .howToDiv2{
+        margin-top: 0%;
+        margin-bottom: 5%;
+    }
+    .rightDiv{
+        margin-top: -3%;
+    }
+    .leftDiv{
+        width: 30vw;
+        margin-top: -19%
+    }
+    .howtoHeader{
+        color: #393E46;
+        font-weight: bolder;
+        font-size: 350%;
+        text-align: center;
+    }
+    .howText{
+        font-size: medium;
+        text-align: justify;
+        padding-left: 0%;
+    }
+}

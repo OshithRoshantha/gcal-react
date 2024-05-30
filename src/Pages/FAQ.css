@@ -59,7 +59,7 @@
 @media (min-width: 768px){
     .faqContainer{
         display: flex;
-        height: 98vh;
+        height: 97.9vh;
         justify-content: center;
         align-items: center;
         column-gap: 15%;
@@ -73,21 +73,22 @@
         background: none;
         width: 40vw;
         margin-top: -30%;
+        margin-left: -3%;
     }
     .faqIcon{
         width: 28%;
         margin-top: 30%;
-        margin-left: 28%;
+        margin-left: 28.5%;
         position: absolute;
     }
     .div2{
         position: absolute;
         width: 30vw;
-        margin-left: -58%;
+        margin-left: -52.5%;
         margin-top: 15%;
     }
     .div3{
-        width: 40vw;
+        width: 35vw;
         height: 50vh;
         margin-top: 24%;
     }
