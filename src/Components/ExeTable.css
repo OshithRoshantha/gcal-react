@@ -4,3 +4,8 @@
 .exBody{
     color: #EEEEEE;
 }
+@media (min-width: 768px){
+    .usingFormula{
+        color: white;
+    }
+}

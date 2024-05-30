@@ -23,13 +23,12 @@
     background-position: left;
     background-size: cover;
 }
-
 @media (min-width: 768px){
     .calculatorContainer{
         margin-top: -6%;
         margin-bottom: 0%;
-        background-image: none;
         padding-bottom: 0%;
+        background-image: none;
     } 
     .calculatorHeading{
         display: flex;

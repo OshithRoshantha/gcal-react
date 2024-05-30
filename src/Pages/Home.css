@@ -10,6 +10,9 @@
     padding-top: 10%;
     padding-bottom: 10%;
 }
+.homeImgContainer{
+    display: none;
+}
 .homeHeading{ 
     background-color: #222831; 
     border-radius: 50%;
@@ -68,13 +71,12 @@
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      background-image: none;
+      background-image: url('/public/homeBGDesktop3.png');
       margin-top: -6%;
       padding-top: 0%;
       padding-bottom: 0%;
       height: 100vh;
       column-gap: 2%;
-
     }
     .homeLeft{
       display: flex;
@@ -82,12 +84,18 @@
       justify-content: center;
       align-items: center;
       width: 30%;
-      
+      margin-top: 5%;
     }
     .homeHeading2{  
       font-weight: 100;
       font-size: 120%;
       text-align: center;
       color: white;
+    }
+    .homeImgContainer{
+      display: contents;
+    }
+    .homeImg{
+      width: 100%;
     }
   }

@@ -1,5 +1,5 @@
 .div1{
-    background: linear-gradient(175deg, #EEEEEE 85%, #393E46 16%);
+    background: linear-gradient(175deg, #00ADB5 85%, #393E46 16%);
     display: flex;
     justify-content: center;
     align-items: start;
@@ -28,8 +28,7 @@
 .div2Header,.div3Header{
     color: #EEEEEE;
     text-align: center;
-    animation: colorChange 5s infinite alternate;
-    
+    animation: colorChange 5s infinite alternate;  
 }
 .faqHeader{
     color: #393E46;
@@ -42,7 +41,7 @@
     font-size: 250%;
 }
 .faqHeadertag{
-    color: #00ADB5;
+    color: #393E46;
     font-size: small;
     font-weight: 600;
     z-index: 99;
@@ -55,7 +54,6 @@
     margin-top: -22%;
     margin-left: 25%;
 }
-
 @media (min-width: 768px){
     .faqContainer{
         display: flex;
@@ -63,7 +61,7 @@
         justify-content: center;
         align-items: center;
         column-gap: 15%;
-        background: linear-gradient(175deg, #EEEEEE 50%, #393E46 50%);
+        background-image: url('/public/faqBGDesktop.png');
     } 
     .div2,.div3{
         background-color: transparent;
@@ -93,7 +91,7 @@
         margin-top: 24%;
     }
     .faqHeader{
-        color: #393E46;
+        color: white;
         font-weight: bolder;
         font-size: 13vh;
     }
@@ -106,6 +104,6 @@
         color: transparent;
     }
     .div3Header{
-        color: #393E46;
+        color: white;
     }
 }

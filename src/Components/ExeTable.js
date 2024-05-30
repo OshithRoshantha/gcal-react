@@ -36,7 +36,7 @@ export default function ExeTable() {
         </tr>
       </tbody>
     </Table>
-    <h6>Using the formula:</h6>
+    <h6 className='usingFormula'>Using the formula:</h6>
     <div className='exCard'>
       <Card size='sm'>
       <Card.Header className='exHeader'>Cumulative GPA = Total Quality Points / Total Credit Hours</Card.Header>

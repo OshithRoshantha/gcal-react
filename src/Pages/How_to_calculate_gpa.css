@@ -41,10 +41,9 @@
     .howToContainer{
         flex-direction: row;
         margin-top: -6%;
-        height: 97.9vh;
+        height: 98.1vh;
         column-gap: 4%;
-        background-image: none;
-        background-color: white;
+        background-image: url('/public/howBGDesktop.png');
     }
     .tableC{
         width: 25vw;
@@ -53,7 +52,7 @@
         flex-direction: column;
     }
     .howtoHeader{
-        color: #393E46;
+        color: white;
         font-weight: bolder;
         font-size: 250%;
         text-align: center;
@@ -70,7 +69,7 @@
         margin-top: -19%
     }
     .howtoHeader{
-        color: #393E46;
+        color: white;
         font-weight: bolder;
         font-size: 350%;
         text-align: center;
@@ -79,5 +78,6 @@
         font-size: medium;
         text-align: justify;
         padding-left: 0%;
+        color: white;
     }
 }

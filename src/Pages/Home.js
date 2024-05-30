@@ -13,6 +13,10 @@ export default function Home() {
       <div className='homeHeading2'>
           <br/>Calculate your Cumulative GPA, check your grades and understand how the GPA scale works.
       </div>
+      <div className='homeImgContainer'>
+        <br/>
+          <img src='homeImg.png' className='homeImg'/>
+      </div>
     </div>
       <br/>
       <CalculateCard/> 
