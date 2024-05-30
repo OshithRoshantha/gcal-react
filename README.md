@@ -10,6 +10,12 @@ A dynamic GPA calculator web application that allows users to input course credi
 - **API integration for enhanced functionality**
 - **State management with useState and useEffect hooks**
 
+## Screenshots
+
+![Screenshot 1](https://github.com/OshithRoshantha/gcal-react/assets/119157077/9419a33a-e7f1-404b-aecd-6568e0ae8c80)
+![Screenshot 2](https://github.com/OshithRoshantha/gcal-react/assets/119157077/8aa281cb-f41d-41a5-9618-9ac7f64e2aa0)
+![Screenshot 3](https://github.com/OshithRoshantha/gcal-react/assets/119157077/a6cb8422-baff-4a6c-9eb3-43a239eccdf5)  
+
 ## Installation
 
 1. Clone the repository:
