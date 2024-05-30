@@ -15,7 +15,7 @@ export default function How_to_calculate_gpa() {
       </div>  
       <div className='rightDiv'>
         <div className='howToDiv2'>
-        <div className='howText'>
+        <div className='howText landscapeHowText'>
         <h4>Example Calculation:</h4>
         <h6>Let's say you have completed the following courses:</h6>
         </div>

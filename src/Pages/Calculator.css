@@ -8,9 +8,14 @@
 }
 .description{
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
     color: #EEEEEE;
-    font-weight: 600;
+    font-weight: 500;
+}
+.decripContainer{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
 }
 .heading{
     text-align: center;

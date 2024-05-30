@@ -8,7 +8,9 @@ export default function Calculator() {
       <div className='calculatorHeading'>
         <h1 className='heading'>Cumulative GPA Calculator</h1>
         <hr/>
-        <h9 className='description'>Calculate your cumulative GPA, and see how your current (and future) grades will affect your performance.</h9>
+        <div className='decripContainer'>
+        <h9 className='description'>Calculate your cumulative GPA, and see how your <br/>current (and future) grades will affect your performance.</h9>
+        </div>
       </div>
        <Inputs/> 
     </div>
