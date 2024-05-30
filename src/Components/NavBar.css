@@ -9,7 +9,6 @@
 .navDesktopIcon{
     width: 5%;
     float: left;
-    background-color: red;
 }
 .navIcon2{
     width: 25%;
@@ -50,3 +49,27 @@
 .nav-link:hover {
     color: #00ADB5; 
   }
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+    .navIcon{
+        width: 10%;
+        float: left;
+        margin-left: 5%;
+    }
+    .navIcon2{
+        width: 12%;
+        float: left;
+    }
+    .fbIcon{
+        height: 12vh;
+    }
+    .OffcanvasLogo{
+        width: 70vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+        column-gap: 6%;
+    }
+    .buttonGroup{
+        margin-top: -12%;
+    }
+}

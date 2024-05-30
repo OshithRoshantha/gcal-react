@@ -27,7 +27,7 @@ export default function NavBar() {
               </Offcanvas.Title>
             </Offcanvas.Header>
             <Offcanvas.Body>
-              <Nav className="justify-content-end flex-grow-1 pe-3 ">
+              <Nav className="justify-content-end flex-grow-1 pe-3 buttonGroup">
                 <br/>
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="Calculator">Calculate GPA</Nav.Link>

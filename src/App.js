@@ -13,19 +13,23 @@ import { useEffect } from 'react';
 import DesktopFooter from './Components/DesktopFooter';
 
 function App() {
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth <= 768);
-    useEffect(() => {
+  const checkScreenSize = () => {
+    const { innerWidth, innerHeight } = window;
+    return innerWidth >= 768 || (innerWidth <= 320 && innerWidth  <= 768 && innerWidth > innerHeight);
+  };
+  const [isSmallScreen, setIsSmallScreen] = useState(checkScreenSize());
+  useEffect(() => {
     const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 768);
+      setIsSmallScreen(checkScreenSize());
     };
     window.addEventListener('resize', handleResize);
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-    }, []);
-  return (
+  }, []);
+return (
     <div className="App">
-      {isSmallScreen ? <NavBar /> : <DesktopNavBar />}
+      {isSmallScreen ? <DesktopNavBar /> : <NavBar />}
       <BrowserRouter>
         <Routes>
           <Route path='' element={<Home/>}></Route>
@@ -35,7 +39,7 @@ function App() {
           <Route path='/How_to_calculate_gpa' element={<How_to_calculate_gpa/>}></Route>
         </Routes>
       </BrowserRouter>
-      {isSmallScreen ? <Footer/> : <DesktopFooter/>}   
+      {isSmallScreen ? <DesktopFooter/> : <Footer/>}   
     </div>
   );
 }
